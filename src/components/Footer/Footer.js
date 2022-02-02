@@ -14,8 +14,8 @@ function Footer() {
               Monday-Saturday 09:00-19:00. Sunday - Close.
             </p>
           </div>
-          <div className='footer-item'>
-            <img className='logoimg' src='/Logo.png'></img>
+          <div className='footer-item footer-logo'>
+            <img className='logoimg' src={require('../../img/logo.png')}></img>
           </div>
           <div className='footer-icon footer-item'>
             <IconFooter />
