@@ -1,10 +1,14 @@
 import './HomeAboutItem.css';
 
-const HomeAboutItem = ({ title, text }) => {
+const HomeAboutItem = ({ title, text, img }) => {
   return (
     <div className='homeAboutItem'>
       <div>
-        <img src={require('../../img/cat.jpg')}></img>
+        <img
+          style={{ width: '130px', height: '275px' }}
+          src={img}
+          alt='phone'
+        ></img>
       </div>
       <h3>{title}</h3>
       <p>{text}</p>

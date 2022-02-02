@@ -9,11 +9,8 @@ const Home = () => {
     <Container>
       <div className='home'>
         <HomeHeading
-          title='Heading1'
-          text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque
-          facilis, dolores illo commodi placeat totam consequuntur itaque,
-          laudantium quia harum sed alias suscipit nobis corrupti voluptatibus,
-          perferendis eum saepeq.'
+          title='WHAT WE DO?'
+          text='Our Online Shop gives you a chance to quickly and easily find the device you want and have it delivered to your home in no time, regardless of your location, as long as it is in one of the countries of the EU.'
         />
         <HomeAbout />
         <MyButton>Viev More</MyButton>

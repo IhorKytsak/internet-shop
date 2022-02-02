@@ -5,19 +5,19 @@ const HomeAbout = () => {
   return (
     <div className='homeAbout'>
       <HomeAboutItem
-        title='Heading1'
-        text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque
-        facilis, dolores illo commodi placeat totam consequuntur itaque'
+        title='Premium phones'
+        text='We have the best flagship smartphones available at affordable prices and convenient payment methods for you '
+        img={require('../../img/premium-phone.jpg')}
       />
       <HomeAboutItem
-        title='Heading2'
-        text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque
-        facilis, dolores illo commodi placeat totam consequuntur itaque'
+        title='Economic phones'
+        text='We have budget phones for every taste at a competitive price and a one-year warranty. '
+        img={require('../../img/economic-phone.jpg')}
       />
       <HomeAboutItem
-        title='Heading3'
-        text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque
-        facilis, dolores illo commodi placeat totam consequuntur itaque'
+        title='Basic phones'
+        text='We have budget phones for every taste at a competitive price and a one-year warranty. '
+        img={require('../../img/basic-phones.jpg')}
       />
     </div>
   );
