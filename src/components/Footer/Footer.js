@@ -1,11 +1,10 @@
 import IconFooter from './IconFooter';
 import './Footer.css';
-import  '../../Container/Container'
+import Container from '../../Container/Container';
 
 function Footer() {
   return (
-    
-    <container>
+    <Container>
       <hr className='first-hr'></hr>
       <div className='footer-main'>
         <div>
@@ -24,7 +23,7 @@ function Footer() {
         <hr></hr>
         <p className='last-line'>All rights not reserved. Ukraine ©2022.</p>
       </div>
-    </container>
+    </Container>
   );
 }
 
