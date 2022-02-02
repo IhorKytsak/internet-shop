@@ -4,6 +4,7 @@ import '../../component/Footer/Footer.css'
 
 function Footer () {
     return (
+        <div>
         <div className="footer-main">
           <div>
             <h5 className="contacts">Our Contacts And Location</h5>
@@ -15,12 +16,13 @@ function Footer () {
             </div>
               <div>
                 <IconFooter />
-                <div>
+             </div>
+        </div>
+        <div>
                   <hr></hr>
                   <p className="last-line">All rights not reserved. Ukraine ©2022.</p>
                 </div>
-             </div>
-        </div>
+    </div>
     )
 }
 
