@@ -8,10 +8,7 @@ const Header = () => {
       <Container>
         <div className='header__nav'>
           <div className='header__logo'>
-            <img
-              style={{ width: '70px', heigth: '70px' }}
-              src={require('../../img/cat.jpg')}
-            ></img>
+            <img style={{ width: '50px' }} src='/logo.png' alt='Logo'></img>
           </div>
           <Nav />
         </div>
