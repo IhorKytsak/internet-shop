@@ -1,9 +1,12 @@
 import IconFooter from './IconFooter';
 import './Footer.css';
+import  '../../Container/Container'
 
 function Footer() {
   return (
-    <div>
+    
+    <container>
+      <hr className='first-hr'></hr>
       <div className='footer-main'>
         <div>
           <h5 className='contacts'>Our Contacts And Location</h5>
@@ -21,7 +24,7 @@ function Footer() {
         <hr></hr>
         <p className='last-line'>All rights not reserved. Ukraine ©2022.</p>
       </div>
-    </div>
+    </container>
   );
 }
 

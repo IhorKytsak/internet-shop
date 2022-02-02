@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@800&display=swap');
 
+
+.first-hr {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
 .contacts{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
@@ -17,7 +23,6 @@
 
 
 .footer-main {
-    position: absolute;
     left: 0;
     bottom: 80px;
     width: 100%;
@@ -35,19 +40,15 @@
 
 
 hr {
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    margin-top: 20px;
-    width: 100%;
-    border: none; 
-    background-color: rgb(0, 0, 0); 
-    color: rgb(49, 49, 49); 
-    height: 3px; 
+    border: 0;
+    margin-top: 40px;
+    height: 1px;
+    background: #000;
+background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
 }
 
 .last-line {
-    position: absolute;
+    padding-bottom: 20px;
     bottom: 10px;
     width: 100%;
     margin-top: 20px;
