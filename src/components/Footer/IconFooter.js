@@ -6,7 +6,7 @@ import { AiFillTwitterSquare } from 'react-icons/ai';
 function IconFooter() {
   return (
     <div className='icons'>
-      <div className='FB'>
+      <div>
         {' '}
         <AiFillFacebook />{' '}
       </div>
