@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@800&display=swap');
+
+.contacts{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    padding-top: 50px;
+}
+
+.adress {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.logoimg {
+    padding-right: 200px;
+   height: 110px;
+}
+
+
+.footer-main {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    margin-top: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+hr {
+    border: none; 
+    background-color: red; 
+    color: red; 
+    height: 2px; 
+   }
+
+   .last-line {
+       display: flex;
+       justify-content: center;
+   }
