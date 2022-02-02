@@ -8,7 +8,7 @@ const Header = () => {
       <Container>
         <div className='header__nav'>
           <div className='header__logo'>
-            <img style={{ width: '50px' }} src='/logo.png' alt='Logo'></img>
+            <img style={{ width: '55px' }} src='/logo.png' alt='Logo'></img>
           </div>
           <Nav />
         </div>

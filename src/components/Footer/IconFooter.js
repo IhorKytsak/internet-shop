@@ -6,22 +6,21 @@ import { AiFillTwitterSquare } from 'react-icons/ai';
 function IconFooter() {
   return (
     <div className='icons'>
-      <div className='FB'>
-        {' '}
-        <AiFillFacebook />{' '}
-      </div>
-      <div>
-        {' '}
-        <AiFillInstagram />{' '}
-      </div>
-      <div>
-        {' '}
-        <AiFillLinkedin />{' '}
-      </div>
-      <div>
-        {' '}
-        <AiFillTwitterSquare />{' '}
-      </div>
+      <AiFillFacebook
+        style={{ marginLeft: '30px', fontSize: '40px', borderRadius: '30px' }}
+      />
+
+      <AiFillInstagram
+        style={{ marginLeft: '30px', fontSize: '40px', borderRadius: '30px' }}
+      />
+
+      <AiFillLinkedin
+        style={{ marginLeft: '30px', fontSize: '40px', borderRadius: '30px' }}
+      />
+
+      <AiFillTwitterSquare
+        style={{ marginLeft: '30px', fontSize: '40px', borderRadius: '30px' }}
+      />
     </div>
   );
 }
