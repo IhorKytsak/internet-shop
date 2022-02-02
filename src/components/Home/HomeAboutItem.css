@@ -1,0 +1,13 @@
+.homeAboutItem {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeAboutItem h3 {
+  margin: 15px;
+}
+
+.homeAboutItem p {
+  padding-bottom: 25px;
+}

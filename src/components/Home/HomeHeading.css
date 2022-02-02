@@ -1,0 +1,17 @@
+.homeHeading {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeHeading__left {
+  width: 35%;
+}
+.homeHeading__right {
+  width: 60%;
+  padding-right: 30px;
+}
+
+.homeHeading__right p {
+  margin: 20px 0;
+}

@@ -1,0 +1,28 @@
+.nav {
+  margin: 0 auto;
+}
+
+.nav > ul {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  text-align: center;
+}
+
+.nav > ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  width: 120px;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 25px;
+
+  transition: background-color linear 0.2s;
+}
+
+.nav > ul li a:hover {
+  background-color: rgb(224, 223, 223);
+}
