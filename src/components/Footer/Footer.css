@@ -17,6 +17,7 @@
 }
 
 .logoimg {
+  padding-right: 250px;
   height: 110px;
 }
 
@@ -41,15 +42,14 @@ hr {
     margin-top: 40px;
     height: 1px;
     background: #000;
-background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
 }
 
 .last-line {
     padding-bottom: 20px;
-    bottom: 10px;
-    width: 100%;
     margin-top: 20px;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
+    font-size: small;
 }
