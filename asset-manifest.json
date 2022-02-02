@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/internet-shop/static/css/main.00ccf8e7.css",
+    "main.js": "/internet-shop/static/js/main.3756057e.js",
+    "static/media/heading-img.jpg": "/internet-shop/static/media/heading-img.32b21388b2dae34fcfd3.jpg",
+    "static/media/basic-phones.jpg": "/internet-shop/static/media/basic-phones.354c3ced88cbf96d7987.jpg",
+    "static/media/economic-phone.jpg": "/internet-shop/static/media/economic-phone.f76ed2ca4dc978168a46.jpg",
+    "index.html": "/internet-shop/index.html",
+    "main.00ccf8e7.css.map": "/internet-shop/static/css/main.00ccf8e7.css.map",
+    "main.3756057e.js.map": "/internet-shop/static/js/main.3756057e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00ccf8e7.css",
+    "static/js/main.3756057e.js"
+  ]
+}
