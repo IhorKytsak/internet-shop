@@ -1,57 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@800&display=swap');
 
-.contacts{
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    padding-top: 40px;
+.contacts {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
 }
 
 .adress {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
-
 
 .logoimg {
-    height: 110px;
+  height: 110px;
 }
 
-
 .footer-main {
-    position: absolute;
-    left: 0;
-    bottom: 80px;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .icons {
-    margin-top: 50px;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
-
 hr {
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    margin-top: 20px;
-    width: 100%;
-    border: none; 
-    background-color: rgb(0, 0, 0); 
-    color: rgb(49, 49, 49); 
-    height: 3px; 
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(49, 49, 49);
+  height: 3px;
 }
 
 .last-line {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    margin-top: 20px;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
 }
