@@ -4,12 +4,17 @@
   height: auto;
 }
 
-.header__nav {
+.header__wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__logo {
-  justify-self: start;
+  width: 10%;
+}
+
+.header__search {
+  width: 220px;
+  text-align: right;
 }

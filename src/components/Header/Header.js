@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className='header'>
       <Container>
-        <div className='header__nav'>
+        <div className='header__wrap'>
           <div className='header__logo'>
             <img
               style={{ width: '55px' }}
@@ -18,8 +18,12 @@ const Header = () => {
               alt='Logo'
             ></img>
           </div>
-          <Nav />
-          {currentLocation === '/catalog' && <SearchInput />}
+          <div className='header__nav'>
+            <Nav />
+          </div>
+          <div className='header__search'>
+            {currentLocation === '/catalog' && <SearchInput />}
+          </div>
         </div>
       </Container>
     </header>
