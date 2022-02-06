@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/internet-shop/static/css/main.30ddc91e.css",
-    "main.js": "/internet-shop/static/js/main.24198aa6.js",
+    "main.css": "/internet-shop/static/css/main.74ce6091.css",
+    "main.js": "/internet-shop/static/js/main.e9f33ae8.js",
     "static/media/logo.png": "/internet-shop/static/media/logo.52df86f2c74c4254fb4e.png",
     "static/media/heading-img.jpg": "/internet-shop/static/media/heading-img.32b21388b2dae34fcfd3.jpg",
     "static/media/xiaomi-poco-f3-5g.jpg": "/internet-shop/static/media/xiaomi-poco-f3-5g.723426699b81ae5ca9c2.jpg",
@@ -14,11 +14,11 @@
     "static/media/apple-iphone-11.jpg": "/internet-shop/static/media/apple-iphone-11.547be3e78e3ca7c55646.jpg",
     "static/media/blackview-a100.jpg": "/internet-shop/static/media/blackview-a100.a090222cba4207f91227.jpg",
     "index.html": "/internet-shop/index.html",
-    "main.30ddc91e.css.map": "/internet-shop/static/css/main.30ddc91e.css.map",
-    "main.24198aa6.js.map": "/internet-shop/static/js/main.24198aa6.js.map"
+    "main.74ce6091.css.map": "/internet-shop/static/css/main.74ce6091.css.map",
+    "main.e9f33ae8.js.map": "/internet-shop/static/js/main.e9f33ae8.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ddc91e.css",
-    "static/js/main.24198aa6.js"
+    "static/css/main.74ce6091.css",
+    "static/js/main.e9f33ae8.js"
   ]
 }
