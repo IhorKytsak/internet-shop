@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.30ddc91e.css",
-    "main.js": "./static/js/main.080e111e.js",
-    "static/media/logo.png": "./static/media/logo.52df86f2c74c4254fb4e.png",
-    "static/media/heading-img.jpg": "./static/media/heading-img.32b21388b2dae34fcfd3.jpg",
-    "static/media/xiaomi-poco-f3-5g.jpg": "./static/media/xiaomi-poco-f3-5g.723426699b81ae5ca9c2.jpg",
-    "static/media/basic-phones.jpg": "./static/media/basic-phones.354c3ced88cbf96d7987.jpg",
-    "static/media/samsung-galaxy-s21-5g.jpg": "./static/media/samsung-galaxy-s21-5g.300775a93d3ddc1d095c.jpg",
-    "static/media/xiaomi-11-lite-5g.jpg": "./static/media/xiaomi-11-lite-5g.6040876f76b0a5113526.jpg",
-    "static/media/apple-iphone-13-5g.jpg": "./static/media/apple-iphone-13-5g.9232e6460506eb5467c1.jpg",
-    "static/media/economic-phone.jpg": "./static/media/economic-phone.f76ed2ca4dc978168a46.jpg",
-    "static/media/samsung-galaxy-a12.jpg": "./static/media/samsung-galaxy-a12.f76ed2ca4dc978168a46.jpg",
-    "static/media/apple-iphone-11.jpg": "./static/media/apple-iphone-11.547be3e78e3ca7c55646.jpg",
-    "static/media/blackview-a100.jpg": "./static/media/blackview-a100.a090222cba4207f91227.jpg",
-    "index.html": "./index.html",
-    "main.30ddc91e.css.map": "./static/css/main.30ddc91e.css.map",
-    "main.080e111e.js.map": "./static/js/main.080e111e.js.map"
+    "main.css": "/internet-shop/static/css/main.30ddc91e.css",
+    "main.js": "/internet-shop/static/js/main.568266b6.js",
+    "static/media/logo.png": "/internet-shop/static/media/logo.52df86f2c74c4254fb4e.png",
+    "static/media/heading-img.jpg": "/internet-shop/static/media/heading-img.32b21388b2dae34fcfd3.jpg",
+    "static/media/xiaomi-poco-f3-5g.jpg": "/internet-shop/static/media/xiaomi-poco-f3-5g.723426699b81ae5ca9c2.jpg",
+    "static/media/basic-phones.jpg": "/internet-shop/static/media/basic-phones.354c3ced88cbf96d7987.jpg",
+    "static/media/samsung-galaxy-s21-5g.jpg": "/internet-shop/static/media/samsung-galaxy-s21-5g.300775a93d3ddc1d095c.jpg",
+    "static/media/xiaomi-11-lite-5g.jpg": "/internet-shop/static/media/xiaomi-11-lite-5g.6040876f76b0a5113526.jpg",
+    "static/media/apple-iphone-13-5g.jpg": "/internet-shop/static/media/apple-iphone-13-5g.9232e6460506eb5467c1.jpg",
+    "static/media/economic-phone.jpg": "/internet-shop/static/media/economic-phone.f76ed2ca4dc978168a46.jpg",
+    "static/media/samsung-galaxy-a12.jpg": "/internet-shop/static/media/samsung-galaxy-a12.f76ed2ca4dc978168a46.jpg",
+    "static/media/apple-iphone-11.jpg": "/internet-shop/static/media/apple-iphone-11.547be3e78e3ca7c55646.jpg",
+    "static/media/blackview-a100.jpg": "/internet-shop/static/media/blackview-a100.a090222cba4207f91227.jpg",
+    "index.html": "/internet-shop/index.html",
+    "main.30ddc91e.css.map": "/internet-shop/static/css/main.30ddc91e.css.map",
+    "main.568266b6.js.map": "/internet-shop/static/js/main.568266b6.js.map"
   },
   "entrypoints": [
     "static/css/main.30ddc91e.css",
-    "static/js/main.080e111e.js"
+    "static/js/main.568266b6.js"
   ]
 }
