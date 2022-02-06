@@ -23,6 +23,7 @@
   transition: background-color linear 0.2s;
 }
 
-.nav > ul li a:hover {
+.nav > ul li a:hover,
+.nav > ul li a.active {
   background-color: rgb(224, 223, 223);
 }

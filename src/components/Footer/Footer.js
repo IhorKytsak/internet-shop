@@ -15,7 +15,11 @@ function Footer() {
             </p>
           </div>
           <div className='footer-item footer-logo'>
-            <img className='logoimg' src={require('../../img/logo.png')}></img>
+            <img
+              className='logoimg'
+              src={require('../../img/logo.png')}
+              alt='logo'
+            ></img>
           </div>
           <div className='footer-icon footer-item'>
             <IconFooter />

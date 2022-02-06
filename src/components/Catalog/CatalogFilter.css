@@ -1,0 +1,22 @@
+.catalogFilter {
+  border-bottom: 2px solid #000;
+}
+
+.catalogFilter__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.catalogFilter__btn {
+  width: 130px;
+  padding: 10px;
+  color: #000;
+  background-color: #fff;
+}
+
+.catalogFilter__btn:hover {
+  color: #fff;
+  background-color: #000;
+}

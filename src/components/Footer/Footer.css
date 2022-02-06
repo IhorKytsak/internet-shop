@@ -6,7 +6,7 @@
 }
 
 .footer-item {
-  width: 30%;
+  width: 33%;
 }
 
 .footer-logo {
@@ -45,6 +45,7 @@
 .footer-icon {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .last-line {

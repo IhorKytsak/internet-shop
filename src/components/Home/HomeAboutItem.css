@@ -1,5 +1,6 @@
 .homeAboutItem {
   width: 26%;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
 }

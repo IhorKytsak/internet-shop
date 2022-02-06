@@ -1,8 +1,12 @@
-import './Header.css';
-import Nav from './Nav';
+import { useLocation } from 'react-router-dom';
 import Container from '../../Container/Container';
+import Nav from './Nav';
+import SearchInput from '../UI/SearchInput';
+import './Header.css';
 
 const Header = () => {
+  const currentLocation = useLocation().pathname;
+
   return (
     <header className='header'>
       <Container>
@@ -15,6 +19,7 @@ const Header = () => {
             ></img>
           </div>
           <Nav />
+          {currentLocation === '/catalog' && <SearchInput />}
         </div>
       </Container>
     </header>
