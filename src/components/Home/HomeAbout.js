@@ -19,6 +19,22 @@ const HomeAbout = () => {
         text='We have budget phones for every taste at a competitive price and a one-year warranty. '
         img={require('../../img/basic-phones.jpg')}
       />
+      <HomeAboutItem
+        title='Demo-tablets'
+        text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis.!'
+        img={require('../../img/tablet.png')}
+      />
+      <HomeAboutItem
+        title='Demo-tablets'
+        text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis.!'
+        img={require('../../img/tablet.png')}
+      />
+      <HomeAboutItem
+        title='Demo-tablets'
+        text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis.!'
+        img={require('../../img/tablet.png')}
+      />
+
     </div>
   );
 };
