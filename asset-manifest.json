@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/internet-shop/static/css/main.74ce6091.css",
-    "main.js": "/internet-shop/static/js/main.e9f33ae8.js",
+    "main.css": "/internet-shop/static/css/main.053ecead.css",
+    "main.js": "/internet-shop/static/js/main.b9f0aceb.js",
     "static/media/logo.png": "/internet-shop/static/media/logo.52df86f2c74c4254fb4e.png",
     "static/media/heading-img.jpg": "/internet-shop/static/media/heading-img.32b21388b2dae34fcfd3.jpg",
+    "static/media/tablet.png": "/internet-shop/static/media/tablet.57e49b5d6099622a5edf.png",
     "static/media/xiaomi-poco-f3-5g.jpg": "/internet-shop/static/media/xiaomi-poco-f3-5g.723426699b81ae5ca9c2.jpg",
     "static/media/basic-phones.jpg": "/internet-shop/static/media/basic-phones.354c3ced88cbf96d7987.jpg",
     "static/media/samsung-galaxy-s21-5g.jpg": "/internet-shop/static/media/samsung-galaxy-s21-5g.300775a93d3ddc1d095c.jpg",
@@ -14,11 +15,11 @@
     "static/media/apple-iphone-11.jpg": "/internet-shop/static/media/apple-iphone-11.547be3e78e3ca7c55646.jpg",
     "static/media/blackview-a100.jpg": "/internet-shop/static/media/blackview-a100.a090222cba4207f91227.jpg",
     "index.html": "/internet-shop/index.html",
-    "main.74ce6091.css.map": "/internet-shop/static/css/main.74ce6091.css.map",
-    "main.e9f33ae8.js.map": "/internet-shop/static/js/main.e9f33ae8.js.map"
+    "main.053ecead.css.map": "/internet-shop/static/css/main.053ecead.css.map",
+    "main.b9f0aceb.js.map": "/internet-shop/static/js/main.b9f0aceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.74ce6091.css",
-    "static/js/main.e9f33ae8.js"
+    "static/css/main.053ecead.css",
+    "static/js/main.b9f0aceb.js"
   ]
 }
