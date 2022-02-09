@@ -29,7 +29,7 @@ const CATALOG_ITEMS = [
   },
   {
     img: require('../../img/catalog/samsung-galaxy-s21-5g.jpg'),
-    name: 'Samsung Galaxy S21 5G ',
+    name: 'Samsung Galaxy S21 5G',
     about:
       'Released 2021. Fast charging 25W, USB Power Delivery 3.0, Fast Qi/PMA wireless charging 15W, Reverse wireless charging 4.5W. OS: Android 11, One UI 3.1. Internal: 256 GB , 8 GB RAM',
     price: '721.00 €'
