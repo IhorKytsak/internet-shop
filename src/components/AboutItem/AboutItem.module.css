@@ -1,0 +1,86 @@
+.aboutHeading {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aboutHeading__left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.aboutHeading__left img {
+  max-width: 170px;
+}
+.aboutHeading__right {
+  width: 65%;
+  padding-right: 10%;
+}
+
+.aboutHeading__right h2 {
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.aboutHeading__right p {
+  margin: 0 0 40px;
+  font-size: 18px;
+}
+
+.aboutHeading__chars {
+  display: flex;
+}
+
+.aboutHeading__char1 {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-right: 15px;
+  padding: 3px 10px;
+}
+
+.aboutHeading__char2 {
+  border-radius: 10px;
+  background-color: darkgreen;
+  color: white;
+  padding: 3px 10px;
+}
+
+.aboutHeading__form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.aboutHeading__form select {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.aboutHeading__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 170px 0 75px;
+}
+
+.aboutHeading__price {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.aboutHeading__btnBack {
+  width: 130px;
+  color: #000;
+  background-color: #fff;
+  margin-right: 35px;
+}
+
+.aboutHeading__btnBack:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.aboutHeading__btnAdd {
+  width: 130px;
+}

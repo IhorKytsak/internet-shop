@@ -1,4 +1,5 @@
 import MyButton from '../UI/MyButton';
+import { Link } from 'react-router-dom';
 import './CatalogItem.css';
 
 const CatalogItem = (props) => {
@@ -13,7 +14,9 @@ const CatalogItem = (props) => {
         <div className='catalogItem__priceLeft'>Price:</div>
         <div className='catalogItem__priceRight'>{props.price}</div>
       </div>
-      <MyButton className='catalogItem__MyBtn'>View more</MyButton>
+      <Link to={'/catalog/' + props.name}>
+        <MyButton className='catalogItem__MyBtn'>View more</MyButton>
+      </Link>
     </div>
   );
 };
