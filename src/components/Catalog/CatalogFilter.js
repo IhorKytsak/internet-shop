@@ -73,8 +73,7 @@ const CatalogFilter = (props) => {
 
     axios
       .get('http://localhost:5000/catalog', {
-        params: itemData,
-        timeout: 30000
+        params: itemData
       })
       .then(function (response) {
         props.onSaveItemData(response.data);
