@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Container from '../../Container/Container';
 import Select from '../UI/Select';
 import MyButton from '../UI/MyButton';
+import axios from 'axios';
 import './CatalogFilter.css';
 
 const filterOption1 = [
@@ -44,15 +45,43 @@ const CatalogFilter = (props) => {
     setFilteredPrice(event.target.value);
   };
 
+  // const submitHandler = (event) => {
+  //   event.preventDefault();
+
+  //   const itemData = {
+  //     year: filteredYear,
+  //     model: filteredModel,
+  //     price: filteredPrice
+  //   };
+  //   props.onSaveItemData(itemData);
+  // };
+
   const submitHandler = (event) => {
     event.preventDefault();
 
-    const itemData = {
-      year: filteredYear,
-      model: filteredModel,
-      price: filteredPrice
-    };
-    props.onSaveItemData(itemData);
+    const itemData = {};
+
+    if (filteredYear) {
+      itemData.year = filteredYear;
+    }
+    if (filteredModel) {
+      itemData.model = filteredModel.toLowerCase();
+    }
+    if (filteredPrice) {
+      itemData.price = filteredPrice;
+    }
+
+    axios
+      .get('http://localhost:5000/catalog', {
+        params: itemData,
+        timeout: 30000
+      })
+      .then(function (response) {
+        props.onSaveItemData(response.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   return (
@@ -82,4 +111,4 @@ const CatalogFilter = (props) => {
   );
 };
 
-export default CatalogFilter;
+export { CatalogFilter };

@@ -13,7 +13,10 @@ const AboutItem = () => {
     <Container>
       <div className={styles.aboutHeading}>
         <div className={styles.aboutHeading__left}>
-          <img src={currentItem.img} alt='about img'></img>
+          <img
+            src={require('../../img/catalog/' + currentItem.img + '.jpg')}
+            alt='about img'
+          ></img>
         </div>
         <div className={styles.aboutHeading__right}>
           <div className={styles.aboutHeading__chars}>
@@ -41,7 +44,7 @@ const AboutItem = () => {
       </div>
       <div className={styles.aboutHeading__footer}>
         <div className={styles.aboutHeading__price}>
-          Price: {currentItem.price}
+          Price: {currentItem.price}.00 €
         </div>
         <div className={styles.aboutHeading__buttons}>
           <Link to='/catalog'>
