@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 app.use('/catalog', require('./roures'));
+
 app.use(cors());
 
 const PORT = 5000;
