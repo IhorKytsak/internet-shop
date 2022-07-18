@@ -9,7 +9,7 @@ app.use(cors());
 
 const PORT = 5000;
 const mongoUri =
-  'mongodb+srv://ihorK735:qwerrewq12345@cluster0.p3q2j.mongodb.net/InternetShop?retryWrites=true&w=majority';
+  'mongodb+srv://myPassword@cluster0.p3q2j.mongodb.net/InternetShop?retryWrites=true&w=majority';
 
 async function start() {
   try {
